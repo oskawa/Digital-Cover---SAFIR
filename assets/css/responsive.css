@@ -1,0 +1,172 @@
+@media screen and (max-width: 1600px) {
+    /* :root {
+        --title-size: 5rem;
+        --title-bis-size: 3.5rem;
+        --subtitle-size: 1.7rem;
+        --paragraph-size: 1.5rem;
+        --paragraph-map-size: 1.5rem;
+        --primary-color: #13130d;
+        --margin-section: 3rem 0;
+        --padding-section: 3rem 0;
+    } */
+}
+@media screen and (max-width: 1440px) {
+    /* :root {
+        --title-size: 5rem;
+        --title-bis-size: 3.5rem;
+        --subtitle-size: 1.6rem;
+        --paragraph-size: 1.5rem;
+        --paragraph-map-size: 1.5rem;
+        --primary-color: #13130d;
+        --margin-section: 3rem 0;
+        --padding-section: 3rem 0;
+    } */
+}
+@media screen and (max-width: 1100px) {
+    :root {
+        --title-page-size: 6.2rem;
+        --title-section-size: 4rem;
+        --title-section-bis-size: 3.5rem;
+        --subtitle-size: 2.6rem;
+        --paragraph-size: 1.4rem;
+        --paragraph-line-height: 2.3rem;
+        --btn-link-size: 1.4rem;
+    }
+    .testimony-content {
+        min-height: 45rem;
+    }
+    ul#site-main-menu li a{
+        font-size: 3.7rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    :root {
+        --title-page-size: 6.2rem;
+        --title-section-size: 4rem;
+        --title-section-bis-size: 3.5rem;
+        --subtitle-size: 2.6rem;
+        --paragraph-size: 1.4rem;
+        --paragraph-line-height: 2.3rem;
+        --btn-link-size: 1.4rem;
+    }
+    ul#site-main-menu li a{
+        font-size: 3.3rem;
+    }
+    ul.testimony-list {
+        width: 40%;
+        margin: auto;
+    }
+    .testimony-content {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        min-height: 35rem;
+    }
+    .pre-footer svg{
+        width: 150px;
+    }
+    .pre-footer h4{
+        font-size: 2.2rem;
+    }
+    .testimony-inner {
+        padding-left: 18rem;
+    }
+    .testimony-content__thumbnail {
+        left: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    :root {
+        --title-page-size: 4.2rem;
+        --title-section-size: 2rem;
+        --title-section-bis-size: 2.5rem;
+        --subtitle-size: 1.9rem;
+        --paragraph-size: 1.4rem;
+        --paragraph-line-height: 1.8rem;
+        --btn-link-size: 1.4rem;
+    }
+    .text-img__container {
+        margin: auto;
+        padding-right: var(--bs-gutter-x, 0.75rem);
+        padding-left: var(--bs-gutter-x, 0.75rem);
+    }
+    .testimony-inner{
+        padding: 3rem 2rem 2rem 18rem;
+    }
+    .isImageRight{
+        padding-right: calc(var(--bs-gutter-x)/ 2);
+        padding-left: calc(var(--bs-gutter-x)/ 2);
+        margin-bottom: 2rem;
+    }
+    .text-img__title{
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+    .text-img__container img{
+        height: 300px;
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .isImageLeft {
+        order: 2;
+    }
+    .text-img__row .col-md-5{
+        margin-bottom: 4rem;
+    }
+    .text-img__row{
+        margin-bottom: 3rem;
+    }
+    .hero-title, .hero-subtitle{
+        width: auto;
+    }
+    .site-header__container{
+        padding: 1.5rem;
+    }
+    .header-menu__fixed{
+      
+        background-color: #C3DFEA;
+    }
+    .header-menu__fixed.active{
+        width: 100%;
+    }
+    body.menu-active{
+        overflow: hidden;
+    }
+    ul#site-main-menu li{
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+}
+@media screen and (max-width: 572px) {
+    .site-footer__menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .site-footer__menu span, .site-footer__menu ul li:not(:last-child){
+        margin-right: 0;
+    }
+    .testimony-content__thumbnail, .testimony-inner {
+        display: none;
+        position: relative;
+    }
+    .testimony-content{
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .testimony-content__thumbnail{
+        margin: auto;
+    }
+    .testimony-inner{
+        padding: 15px;
+    }
+    .testimony-content__thumbnail.active, .testimony-inner.active{
+        display: block;
+    }
+    .testimony-list li{
+        margin-bottom: 1.3rem;
+    }
+    .testimony-list li:hover button{
+        padding-left: 0.5rem;
+    }
+}
+

@@ -1,0 +1,329 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: zafir Starter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-07 09:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: zafir"
+
+#: ../zafir-starter/includes/customizer.php:109
+#: ../zafir-starter/includes/customizer.php:151
+msgid "%"
+msgstr ""
+
+#. 1: date, 2: time
+#: ../zafir-starter/functions.php:302
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../zafir-starter/comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../zafir-starter/functions.php:281
+msgid "(Edit)"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:310
+msgid "Active Link Color"
+msgstr ""
+
+#: ../zafir-starter/footer.php:32
+msgid "Add some widgets to the footer."
+msgstr ""
+
+#: ../zafir-starter/header.php:70
+msgid "Add some widgets to the header."
+msgstr ""
+
+#: ../zafir-starter/functions.php:208
+msgid "Add some widgets to the sidebar."
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:818
+msgid "Address"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:834
+msgid "Address Link"
+msgstr ""
+
+#: ../zafir-starter/index.php:48
+msgctxt "After post title on permalink title attribute"
+msgid ""
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:247
+msgid "Background Color"
+msgstr ""
+
+#: ../zafir-starter/index.php:47
+msgctxt "Before post title on permalink title attribute"
+msgid "Permanent link to "
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:68
+msgid "Bootstrap"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:66
+msgid "Boxed"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:87
+msgid "Boxed maximum width"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:105
+msgid "Boxed maximum width unit"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:693
+msgid "Button Display"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:165
+msgid "Colors"
+msgstr ""
+
+#: ../zafir-starter/comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:727
+msgid "Contact"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:776
+msgid "Description"
+msgstr ""
+
+#: ../zafir-starter/functions.php:313
+msgid "Edit"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:67
+msgid "Fluid"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:268
+msgid "Font Color"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:366
+msgid "Fonts"
+msgstr ""
+
+#: ../zafir-starter/functions.php:176
+msgid "Footer"
+msgstr ""
+
+#: ../zafir-starter/functions.php:118
+msgid "Footer menu"
+msgstr ""
+
+#: ../zafir-starter/functions.php:158
+msgid "Header"
+msgstr ""
+
+#: ../zafir-starter/functions.php:117
+msgid "Header menu"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:352
+msgid "Hover Link Color"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:44
+msgid "Layout"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:62
+msgid "Layout type"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:289
+msgid "Link Color"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:794
+msgid "Mail"
+msgstr ""
+
+#: ../zafir-starter/index.php:19
+msgid "Main page content"
+msgstr ""
+
+#: ../zafir-starter/header.php:87
+msgid "Menu"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:129
+msgid "Minimum left & right padding"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:147
+msgid "Minimum left & right padding unit"
+msgstr ""
+
+#: ../zafir-starter/index.php:72 ../zafir-starter/index.php:134
+msgid "Navigation"
+msgstr ""
+
+#: ../zafir-starter/comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../zafir-starter/index.php:106
+msgid "Nothing found"
+msgstr ""
+
+#: ../zafir-starter/comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../zafir-starter/includes/customizer.php:760
+msgid "Phone"
+msgstr ""
+
+#: ../zafir-starter/functions.php:281
+msgid "Pingback:"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:65
+#: ../zafir-starter/includes/customizer.php:108
+#: ../zafir-starter/includes/customizer.php:150
+msgid "Please select"
+msgstr ""
+
+#: ../zafir-starter/functions.php:296
+msgid "Post author"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:184
+msgid "Primary Color"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:490
+msgid "Primary custom font stack"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:382
+msgid "Primary font (used by default site-wide)"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:419
+msgid "Primary font style italic weights"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:400
+msgid "Primary font weights"
+msgstr ""
+
+#: ../zafir-starter/functions.php:231
+msgid "Primary navigation"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:110
+#: ../zafir-starter/includes/customizer.php:152
+msgid "px"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:604
+msgid "Quaternary custom font stack"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:642
+msgid "Quinary custom font stack"
+msgstr ""
+
+#: ../zafir-starter/functions.php:317
+msgid "Reply"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:205
+msgid "Secondary Color"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:528
+msgid "Secondary custom font stack"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:436
+msgid "Secondary font"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:473
+msgid "Secondary font style italic weights"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:454
+msgid "Secondary font weights"
+msgstr ""
+
+#: ../zafir-starter/functions.php:234
+msgid "Secondary navigation"
+msgstr ""
+
+#: ../zafir-starter/functions.php:167
+#: ../zafir-starter/includes/customizer.php:675
+msgid "Sidebar"
+msgstr ""
+
+#: ../zafir-starter/index.php:108
+msgid "Sorry but the page you are looking for can not be found."
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:491
+#: ../zafir-starter/includes/customizer.php:529
+#: ../zafir-starter/includes/customizer.php:567
+#: ../zafir-starter/includes/customizer.php:605
+#: ../zafir-starter/includes/customizer.php:643
+msgid "Stack used in the font-family css declaration."
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:226
+msgid "Tertiary Color"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:566
+msgid "Tertiary custom font stack"
+msgstr ""
+
+#: ../zafir-starter/functions.php:178
+msgid "The footer widgets area."
+msgstr ""
+
+#: ../zafir-starter/functions.php:160
+msgid "The header widgets area."
+msgstr ""
+
+#: ../zafir-starter/functions.php:169
+msgid "The sidebar widgets area."
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:331
+msgid "Visited Link Color"
+msgstr ""
+
+#: ../zafir-starter/includes/customizer.php:743
+msgid "website"
+msgstr ""
+
+#: ../zafir-starter/functions.php:308
+msgid "Your comment is awaiting moderation."
+msgstr ""

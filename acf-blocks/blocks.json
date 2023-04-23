@@ -1,0 +1,29 @@
+{
+  "0": {
+    "name": "safir-hero",
+    "title": "Bloc hero",
+    "description": "Bloc de hero, image et texte",
+    "render_template": "bloc-hero.php",
+    "category": "theme_un",
+    "icon": "admin-site",
+    "keywords": "array('contact', 'texte','safir')"
+  },
+  "1": {
+    "name": "safir-testimony",
+    "title": "Bloc témoignage",
+    "description": "Bloc de témoignages",
+    "render_template": "bloc-testimony.php",
+    "category": "theme_un",
+    "icon": "admin-site",
+    "keywords": "array('contact', 'texte','safir')"
+  },
+  "2": {
+    "name": "safir-text-img",
+    "title": "Bloc répétition texte et image",
+    "description": "Bloc de répétition avec texte, image et lien",
+    "render_template": "bloc-text-img.php",
+    "category": "theme_un",
+    "icon": "admin-site",
+    "keywords": "array('contact', 'texte','safir')"
+  }
+}
