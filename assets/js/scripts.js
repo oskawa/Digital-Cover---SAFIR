@@ -8,58 +8,88 @@
 /** Definition d'une console minimum pour éviter des erreurs Javascript **/
 window.console || (console = { log: function () { }, warn: function () { }, error: function () { } });
 
-/** *************************************************************************************** **/
 
 
-// Incorporez ici les plugins jQuery dont vous avez besoin
+window.addEventListener("DOMContentLoaded", (event) => {
+    console.log("DOM fully loaded and parsed");
 
+    const testimonyButtons = document.querySelectorAll('.testimony-list button');
 
-/** *************************************************************************************** **/
+    testimonyButtons.forEach(button => {
+        button.addEventListener('click', () => {
 
-(function ($) {
-    'use strict';
+            // Bouton de sélection à gauche
+            const testimonyListButtons = document.querySelectorAll('.testimony-list button');
+            testimonyListButtons.forEach(btn => btn.classList.remove('active'));
 
-    /** C'est parti ! **/
-    $(function () {
-        // Mise en cache de variables utiles :
-        var $w = $(window), $d = $(document), $html = $('html'), $body = $('body');
+            // Image associée
+            const testimonyContentImages = document.querySelectorAll('.testimony-content img');
+            testimonyContentImages.forEach(img => img.classList.remove('active'));
 
-        // Executez vos scripts Javascript ici...
+            // Contenu intégrale
+            const allTestimonyInner = document.querySelectorAll('.testimony-inner');
+            allTestimonyInner.forEach(testimony => testimony.classList.remove('active'));
 
+            // Afficher contenu correspondant au bouton cliqué
+            const selectedTestimony = button.dataset.testimony;
+            const testimonyInner = document.querySelector(`.testimony-inner[data-single="${selectedTestimony}"]`);
+            const testimonyContentImage = document.querySelector(`.testimony-content img[data-single="${selectedTestimony}"]`);
 
-        $('.testimony-list button').on('click', function () {
-            $('.testimony-list button').removeClass('active')
-            $('.testimony-content img').removeClass('active')
-
-            $(this).addClass('active')
-            $('.testimony-inner').removeClass('active')
-            $('.testimony-content img[data-single="' + $(this).attr('data-testimony') + '"]').addClass('active')
-            $('.testimony-inner[data-single="' + $(this).attr('data-testimony') + '"]').addClass('active')
-
-        })
-
-        $('.site-header__menu-toggle').on('click', function () {
-            if ($('.header-menu__fixed').hasClass('active')){
-                $(this).removeClass('is-active')
-                $('.header-menu__fixed').removeClass('active')
-                $('ul#site-main-menu li').removeClass('active')
-                $('body').removeClass('menu-active')
-            }else {
-                $(this).addClass('is-active')
-                $('body').addClass('menu-active')
-                $('.header-menu__fixed').addClass('active')
-                let delay = 0
-                console.log($('#site-main-menu li'))
-                $('#site-main-menu li').each(function(){
-                    setTimeout(() => {
-                        $(this).addClass('active')                                                
-                    }, delay+=200);
-                })
-               
-
-            }
-        })
-
-
+            button.classList.add('active');
+            testimonyInner.classList.add('active');
+            testimonyContentImage.classList.add('active');
+        });
     });
-}(jQuery));
+
+    // $('.site-header__menu-toggle').on('click', function () {
+    //     if ($('.header-menu__fixed').hasClass('active')) {
+    //         $(this).removeClass('is-active')
+    //         $('.header-menu__fixed').removeClass('active')
+    //         $('ul#site-main-menu li').removeClass('active')
+    //         $('body').removeClass('menu-active')
+    //     } else {
+    //         $(this).addClass('is-active')
+    //         $('body').addClass('menu-active')
+    //         $('.header-menu__fixed').addClass('active')
+    //         let delay = 0
+    //         console.log($('#site-main-menu li'))
+    //         $('#site-main-menu li').each(function () {
+    //             setTimeout(() => {
+    //                 $(this).addClass('active')
+    //             }, delay += 200);
+    //         })
+
+
+    //     }
+    // })
+
+
+    // Selecteurs du menu
+
+    const menuToggle = document.querySelector('.site-header__menu-toggle');
+    const headerMenuFixed = document.querySelector('.header-menu__fixed');
+    const siteMainMenu = document.querySelectorAll('ul#site-main-menu li');
+
+    menuToggle.addEventListener('click', () => {
+
+        // On refait le même principe qu'avec JQUERY : 
+        //  Si la classe est visible, on la retire. Et inversement
+        if (headerMenuFixed.classList.contains('active')) {
+            menuToggle.classList.remove('is-active');
+            headerMenuFixed.classList.remove('active');
+            siteMainMenu.forEach(li => li.classList.remove('active'));
+            document.body.classList.remove('menu-active');
+        } else {
+            menuToggle.classList.add('is-active');
+            document.body.classList.add('menu-active');
+            headerMenuFixed.classList.add('active');
+            let delay = 0;
+            siteMainMenu.forEach(li => {
+                setTimeout(() => {
+                    li.classList.add('active');
+                }, delay += 200);
+            });
+        }
+    });
+
+});
